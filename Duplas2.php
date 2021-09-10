@@ -7,11 +7,13 @@
     $iguales = $duplas->sonIguales();
     $multiplo = $duplas->esMultiplo();
     $pares = $duplas ->sonPares();
-   
+    $suma = $duplas->suma();
+
 
  echo $iguales;
  echo $multiplo;
  echo $pares;
+ echo $suma;
 
     
 ?>
