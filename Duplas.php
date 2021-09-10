@@ -48,6 +48,15 @@ class Duplas
         return "<h4>Ninguno de los dos numeros es par.</h4>";
     }
 
+    public function Suma() 
+    {
+
+        $suma = $this->numero1 + $this->numero2;
+        
+        return "<h3>La suma de los numeros $this->numero1 + $this->numero2 es: $suma</h3><br>";
+    }
+
+
 }
 
 ?>
